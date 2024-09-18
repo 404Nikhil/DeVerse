@@ -4,7 +4,7 @@ import FAQsSection from "@/components/home/faq";
 import Home from "@/components/home/home";
 import Prizes from "@/components/home/prizes";
 import Timeline from "@/components/home/timeline";
-import Tracks from "@/components/home/tracks";
+import Track from "@/components/home/tracks";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { LampContainer } from "@/components/ui/lamp";
@@ -31,7 +31,7 @@ const HomePage = () => {
         <Timeline />
       </Container>
       <Container>
-        <Tracks />
+        <Track />
       </Container>
       <Container>
         <FAQsSection />
