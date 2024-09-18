@@ -13,48 +13,48 @@ const FAQsSection: React.FC = () => {
           </h4>
         </div>
         <p className="max-w-screen-md text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl text-center">
-          Advice and answers from the our team.
+          Answers from our team.
         </p>
-      </div>
-      <ul className="mx-auto flex w-full grid-cols-3 flex-col place-content-start items-start gap-8 self-stretch lg:grid lg:gap-14 lg:px-24">
+            </div>
+            <ul className="mx-auto flex w-full grid-cols-3 flex-col place-content-start items-start gap-8 self-stretch lg:grid lg:gap-14 lg:px-24">
         <li className="flex flex-col gap-1.5">
           <p className="font-medium leading-relaxed tracking-tighter sm:text-lg">
-            What industries can benefit from your AI solutions?
+            Can SE and TE students combine to form a team?
           </p>
           <p className="text-sm leading-relaxed tracking-tight text-text-tertiary dark:text-dark-text-tertiary sm:text-base">
-            Our AI solutions are applicable across various industries, including healthcare, finance, retail, and manufacturing.
+            Either ONLY TE students or ONLY SE students should make up teams.
           </p>
         </li>
         <li className="flex flex-col gap-1.5">
           <p className="font-medium leading-relaxed tracking-tighter sm:text-lg">
-            How do you ensure data privacy and security?
+            How many students can make up a team?
           </p>
           <p className="text-sm leading-relaxed tracking-tight text-text-tertiary dark:text-dark-text-tertiary sm:text-base">
-            We adhere to strict data privacy regulations and implement robust security measures to protect sensitive information.
+            Teams can consist of up to 4 members.
           </p>
         </li>
         <li className="flex flex-col gap-1.5">
           <p className="font-medium leading-relaxed tracking-tighter sm:text-lg">
-            Can your AI solutions be customized to fit specific business needs?
+            Does the event have a registration fee?
           </p>
           <p className="text-sm leading-relaxed tracking-tight text-text-tertiary dark:text-dark-text-tertiary sm:text-base">
-            Automate repetitive tasks and free up valuable time for strategic initiatives.
+            FREE FREE FREE
           </p>
         </li>
         <li className="flex flex-col gap-1.5">
           <p className="font-medium leading-relaxed tracking-tighter sm:text-lg">
-            Do you provide ongoing support and maintenance for your AI solutions?
+            Can team members be from other colleges?
           </p>
           <p className="text-sm leading-relaxed tracking-tight text-text-tertiary dark:text-dark-text-tertiary sm:text-base">
-            Absolutely, we offer comprehensive support and maintenance services to ensure the smooth operation of our AI solutions.
+            No, all team members must be from the same college.
           </p>
         </li>
         <li className="flex flex-col gap-1.5">
           <p className="font-medium leading-relaxed tracking-tighter sm:text-lg">
-            How can I Register with your AI solutions?
+            What are the perks of participating in De'Verse?
           </p>
           <p className="text-sm leading-relaxed tracking-tight text-text-tertiary dark:text-dark-text-tertiary sm:text-base">
-            Simply reach out to our team to schedule a consultation and explore how our AI solutions can benefit your business.
+            Participants will gain valuable experience, networking opportunities, and the chance to win exciting prizes.
           </p>
         </li>
       </ul>
