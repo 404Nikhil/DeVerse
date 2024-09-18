@@ -22,8 +22,8 @@ const Prizes: React.FC = () => {
       <p className="max-w-screen-md text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl text-center">
           TEs
         </p>
-      <div className="flex flex-col gap-5 self-stretch lg:flex-row">
-      <article className="relative block lg:hidden flex-1 flex-col overflow-hidden rounded-2xl border border-border dark:border-dark-border">
+        <div className="flex flex-col gap-5 self-stretch lg:flex-row">
+      <article className="relative block lg:hidden justify-center items-center flex-1 flex-col overflow-hidden rounded-2xl border border-border dark:border-dark-border">
           <header className="flex flex-col gap-4 px-8 pb-0 pt-10">
             <span className="bg-primary absolute left-1/2 top-4 -translate-x-1/2 text-center text-xs font-medium text-accent-500 lg:text-sm">
               Winner Winner!
@@ -33,6 +33,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -109,6 +110,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+                description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -189,6 +191,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -265,6 +268,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -340,7 +344,7 @@ const Prizes: React.FC = () => {
           SEs
         </p>
       <div className="flex flex-col gap-5 self-stretch lg:flex-row">
-      <article className="relative block lg:hidden flex-1 flex-col overflow-hidden rounded-2xl border border-border dark:border-dark-border">
+      <article className="relative block lg:hidden justify-center items-center flex-1 flex-col overflow-hidden rounded-2xl border border-border dark:border-dark-border">
           <header className="flex flex-col gap-4 px-8 pb-0 pt-10">
             <span className="bg-primary absolute left-1/2 top-4 -translate-x-1/2 text-center text-xs font-medium text-accent-500 lg:text-sm">
               Winner Winner!
@@ -350,6 +354,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -426,6 +431,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+                description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -506,6 +512,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
@@ -582,6 +589,7 @@ const Prizes: React.FC = () => {
             </span>
             <div className="flex flex-col">
               <h5 className="text-center text-lg font-medium lg:text-xl">
+              description
               </h5>
               <p className="text-center text-sm text-text-tertiary dark:text-dark-text-tertiary lg:text-base">
               </p>
