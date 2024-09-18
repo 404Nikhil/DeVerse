@@ -59,7 +59,7 @@ const Timeline: React.FC = () => {
   return (
     <section
       id="Timeline"
-      className="py-14 md:py-[72px] flex flex-col items-center gap-10 relative lg:container lg:mx-auto lg:!flex-row lg:gap-0 lg:p-28"
+      className="py-14 md:py-[72px] flex flex-col justify-center items-center gap-10 relative lg:container lg:mx-auto lg:!flex-row lg:gap-0 lg:p-28"
     >
       <div className="container relative top-0 mx-auto shrink self-stretch px-6 lg:w-1/2 lg:pl-0 lg:pr-12 xl:pr-20">
         <div className="sticky top-16 flex flex-col gap-10">

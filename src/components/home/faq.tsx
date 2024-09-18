@@ -9,7 +9,7 @@ const FAQsSection: React.FC = () => {
         </h3>
         <div className="flex max-w-[800px] flex-col justify-center gap-1 items-center self-center">
           <h4 className="text-pretty text-3xl font-medium md:text-4xl text-center" title="Frequently asked questions">
-            Frequently asked questions
+            Have a Doubt?
           </h4>
         </div>
         <p className="max-w-screen-md text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl text-center">

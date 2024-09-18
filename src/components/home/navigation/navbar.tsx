@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Container, Icons } from "@/components";
-
+import Image from "next/image";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -37,7 +37,7 @@ const Navbar = () => {
                 onClick={() => handleHome()}
                 className="flex cursor-pointer items-center gap-2"
               >
-                <Icons.logo className="w-6 h-6" />
+                <Image src="/assets/osslogo.svg" alt="OSS Logo" width={28} height={28} className="w-7 h-7" />
                 <span className="text-lg font-medium">De&apos;Verse</span>
               </div>
             </div>

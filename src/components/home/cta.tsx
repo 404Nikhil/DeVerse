@@ -29,22 +29,22 @@ const CTA: React.FC = () => {
         {/* -------- */}
         <div className="relative z-20 flex flex-col items-center gap-2 text-center">
           <h4 className="text-center text-3xl font-medium tracking-tighter text-text-primary dark:text-dark-text-primary sm:max-w-full sm:px-0 md:text-4xl">
-            Enhance your team&apos;s productivity with De'Verse
+          May the source be with you!!!
           </h4>
           <p className="text-lg text-text-secondary dark:text-dark-text-secondary md:text-xl">
-            Write in threads, focus, and collaborate without video calls.
+            Talk is cheap, Show me the code.
           </p>
         </div>
         <div className="relative z-10 flex items-center gap-2 pt-8">
           <a
             className="gap-1 font-normal shrink-0 rounded-none ring-control focus-visible:ring-2 outline-none bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5"
-            href="/sign-up"
+            href="/"
           >
             Register
           </a>
           <a
                 className="gap-1 group font-normal shrink-0 rounded-none ring-control focus-visible:ring-2 outline-none outline-0 bg-surface-secondary text-text-primary border-border border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5 !px-3.5"
-                href="/sign-in"
+                href="/"
                 style={{ cursor: "pointer" }}
               >
                 RuleBook
