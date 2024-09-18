@@ -154,6 +154,7 @@ const config: Config = {
       letterSpacing: {
         tighter: "-0.58px",
         tight: "-0.48px",
+        'custom-wide': "1.2em",
       },
       typography: {
         DEFAULT: {

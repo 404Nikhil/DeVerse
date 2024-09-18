@@ -10,7 +10,7 @@ interface Feature {
   iconAlt: string;
 }
 
-const features: Feature[] = [
+const TimelineData: Feature[] = [
   {
     id: "1",
     title: "21 Sept. 2024",
@@ -126,7 +126,7 @@ const Timeline: React.FC = () => {
       </div>
       <div className="w-full flex-1 shrink-0 lg:w-1/2 lg:flex-1">
         <div className="no-scrollbar flex gap-10 overflow-auto px-6 lg:flex-col lg:px-0">
-          {features.map(({ id, title, description, iconUrl, iconAlt }) => (
+          {TimelineData.map(({ id, title, description, iconUrl, iconAlt }) => (
             <article
               key={id}
               className="flex w-[280px] shrink-0 flex-col gap-4 rounded-lg border border-border bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5"
