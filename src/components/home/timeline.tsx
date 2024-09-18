@@ -13,57 +13,45 @@ interface Feature {
 const features: Feature[] = [
   {
     id: "1",
-    title: "Real-time Messaging",
-    description:
-      "Instantly communicate with your team, ensuring swift decision-making and seamless collaboration on project tasks and updates.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/4tjfOxi91wk29BRy6jH1p/mail.svg",
-    iconAlt: "Real-time Messaging",
+    title: "21 Sept. 2024",
+    description: "Registrations Start",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Registrations Start",
   },
   {
     id: "2",
-    title: "Task Management",
-    description:
-      "Organize and prioritize tasks effectively, assigning responsibilities and tracking progress to keep projects on schedule and within scope.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/xGzl38RZpWQq8bij8Hzhu/zap.svg",
-    iconAlt: "Task Management",
+    title: "23 Sept. 2024",
+    description: "Registrations Close",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Registrations Close",
   },
   {
     id: "3",
-    title: "File Sharing",
-    description:
-      "Share documents, images, and other files effortlessly within your team, enabling easy access to project resources and materials.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/bp99UZ-NioE-mvd_ZLLh-/bar-chart-2.svg",
-    iconAlt: "File Sharing",
+    title: "24 Sept. 2024",
+    description: "Inauguration",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Inauguration",
   },
   {
     id: "4",
-    title: "Real-time Insights",
-    description:
-      "Gain actionable insights instantly with real-time data analysis and visualization.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/ZJG_2vVCKgVzSUrxdDMHo/smile.svg",
-    iconAlt: "Real-time Insights",
+    title: "24 Sept. 2024",
+    description: "Building Phase Start",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Building Phase Start",
   },
   {
     id: "5",
-    title: "Smart Notifications",
-    description:
-      "Stay informed about project updates and important discussions without being overwhelmed, thanks to customizable notification settings.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/IDiRkDVimmZ2V_id1-FX7/command.svg",
-    iconAlt: "Smart Notifications",
+    title: "29 Sept. 2024",
+    description: "Building Phase End",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Building Phase End",
   },
   {
     id: "6",
-    title: "Team Analytics",
-    description:
-      "Gain insights into team performance and communication trends with built-in analytics, empowering you to optimize workflows and enhance productivity.",
-    iconUrl:
-      "https://assets.basehub.com/fa068a12/F8riNXVtoCEr_slSKlQKE/message-circle.svg",
-    iconAlt: "Team Analytics",
+    title: "13 Oct. 2024",
+    description: "Judgement Round",
+    iconUrl: "/assets/pin-svgrepo-com.svg",
+    iconAlt: "Judgement Round",
   },
 ];
 
@@ -77,31 +65,30 @@ const Timeline: React.FC = () => {
         <div className="sticky top-16 flex flex-col gap-10">
           <div className="flex flex-col gap-3 items-start self-start">
             <h3 className="flex min-h-7 items-center justify-center gap-2 rounded-none bg-surface-secondary px-3.5 pb-px text-sm font-medium text-text-tertiary dark:bg-dark-surface-secondary dark:text-dark-text-tertiary md:text-base">
-              Productivity
+              Event Flow
             </h3>
             <div className="flex max-w-[800px] flex-col justify-center gap-1 items-start self-start">
               <h4
                 className="text-pretty text-3xl font-medium md:text-4xl text-left"
-                title="Supercharge Team Productivity"
+                title="Timeline"
               >
-                Supercharge Team Productivity
+                Timeline
               </h4>
             </div>
             <p className="max-w-screen-md text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl text-left">
-              Keep your team focused and productive as they collaborate on
-              building and shipping products swiftly.
+
             </p>
           </div>
           <div className="flex items-center gap-3 md:order-3">
             <a
-              href="/sign-up"
+              href="/"
               className="gap-1 font-normal shrink-0 rounded-none ring-control focus-visible:ring-0 outline-none outline-0 bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center px-3.5 text-base h-8 md:px-5"
             >
               Register
             </a>
             <a
               className="gap-1 group font-normal shrink-0 rounded-none ring-control focus-visible:ring-2 outline-none outline-0 bg-surface-secondary text-text-primary border-border border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5 !px-3.5"
-              href="/sign-in"
+              href="/"
               style={{ cursor: "pointer" }}
             >
               RuleBook

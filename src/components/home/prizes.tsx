@@ -13,7 +13,7 @@ const Prizes: React.FC = () => {
         <div className="flex max-w-[800px] flex-col justify-center gap-1 items-center self-center">
           <h4
             className="text-pretty text-3xl font-medium md:text-4xl text-center"
-            title="Simple, fair pricing for your team"
+            title="Prizes"
           >
             Prizes
           </h4>
