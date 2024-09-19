@@ -2,24 +2,37 @@ import { Metadata } from "next";
 
 export const SITE_CONFIG: Metadata = {
     title: {
-        default: "deverse - Create Collaborate Contribute",
-        template: `%s | deverse`
+        default: "De'Verse - Create Collaborate Contribute",
+        template: `%s | De'Verse`
     },
-    description: "deverse",
+    description: "De'Verse",
+        icons: {
+        icon: [
+            {
+                url: "/assets/osslogo.svg",
+                href: "/assets/osslogo.svg",
+            }
+        ]
+    },
 
     openGraph: {
-        title: "deverse",
-        description: "deverse",
+        title: "De'Verse",
+        description: "De'Verse",
+                images: [
+            {
+               url: "/assets/imgbanner.png"
+            }
+        ]
   
     },
     twitter: {
         card: "summary_large_image",
         creator: "@deverse",
-        title: "deverse",
-        description: "deverse",
+        title: "De'Verse",
+        description: "De'Verse",
         images: [
             {
-                url: "/assets/og-image.png",
+                url: "/assets/imgbanner.png",
             }
         ]
     },

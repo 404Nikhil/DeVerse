@@ -22,7 +22,7 @@ export function Tracks() {
         <p className="max-w-screen-md text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl text-center">
         </p>
       </div>
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-5xl  mx-auto px-8">
       <HoverEffect items={tracks} />
     </div>
     </section>

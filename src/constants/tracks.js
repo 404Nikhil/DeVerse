@@ -29,12 +29,7 @@ export const tracks = [
         "Explore the Internet of Things and create innovative projects with the provided tracks.",
       link: "https://example.com/iot",
     },
-    {
-      title: "Open Innovation",
-      description:
-        "Engage in open innovation and collaborate on groundbreaking projects using the available tracks.",
-      link: "https://example.com/open-innovation",
-    },
+  
   ];
   
   export default tracks;
