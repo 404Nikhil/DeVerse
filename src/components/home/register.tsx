@@ -1,9 +1,9 @@
-"use client"; 
+"use client";
 
 import React, { useEffect, useState } from "react";
 
 const Register: React.FC = () => {
-  const [timeLeft, setTimeLeft] = useState<string>("00:00:00:00");
+  const [timeLeft, setTimeLeft] = useState<string>("");
 
   useEffect(() => {
     const targetDate = new Date("2024-09-23T00:00:00");
@@ -30,6 +30,7 @@ const Register: React.FC = () => {
       }
     };
 
+    updateCountdown();
     const timer = setInterval(updateCountdown, 1000);
     return () => clearInterval(timer);
   }, []);
