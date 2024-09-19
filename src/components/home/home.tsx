@@ -1,6 +1,6 @@
 import { GitCommitIcon } from "lucide-react";
 import React from "react";
-
+import Register from "./register";
 const Home: React.FC = () => {
   return (
     <>
@@ -44,12 +44,7 @@ const Home: React.FC = () => {
           </div>
           <div className="flex items-start justify-center px-8 sm:px-24">
             <div className="flex w-full max-w-[80vw] py-4 gap-4 flex-col items-center justify-start md:!max-w-[392px]">
-              <div className="flex flex-col justify-center items-center">
-                <h4 className="text-md max-w-2xl text-pretty text-center text-text-tertiary dark:text-dark-text-tertiary md:text-lg">
-                  Registration ends in
-                </h4>
-                <h1 className="text-3xl tracking-wide"> 10:19:12:03</h1>
-              </div>
+              <Register></Register>
               <a
                 className="gap-1 font-normal shrink-0 ring-control focus-visible:ring-2 outline-none outline-0 bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 px-3.5 text-sm md:text-xl md:px-5 !h-14 flex-col items-center justify-center rounded-none flex w-full"
                 href="/sign-up"
